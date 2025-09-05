@@ -1,0 +1,22 @@
+GET http://localhost:8000/api/task
+Content-Type: application/json
+Accept: application/json
+
+### dadad
+POST  http://localhost:8000/api/task
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "StarCode KH",
+    "is_completed": false
+}
+
+### adada
+PUT  http://localhost:8000/api/task/1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "is_completed": true
+}
